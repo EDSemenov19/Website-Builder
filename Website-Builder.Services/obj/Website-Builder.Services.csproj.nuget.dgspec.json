@@ -1,0 +1,124 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/egorsemenov/Projects/Website-Builder/Website-Builder.Services/Website-Builder.Services.csproj": {}
+  },
+  "projects": {
+    "/Users/egorsemenov/Projects/Website-Builder/Website-Builder.Data/Website-Builder.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/egorsemenov/Projects/Website-Builder/Website-Builder.Data/Website-Builder.Data.csproj",
+        "projectName": "Website-Builder.Data",
+        "projectPath": "/Users/egorsemenov/Projects/Website-Builder/Website-Builder.Data/Website-Builder.Data.csproj",
+        "packagesPath": "/Users/egorsemenov/.nuget/packages/",
+        "outputPath": "/Users/egorsemenov/Projects/Website-Builder/Website-Builder.Data/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/egorsemenov/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.18, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.313/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/egorsemenov/Projects/Website-Builder/Website-Builder.Services/Website-Builder.Services.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/egorsemenov/Projects/Website-Builder/Website-Builder.Services/Website-Builder.Services.csproj",
+        "projectName": "Website-Builder.Services",
+        "projectPath": "/Users/egorsemenov/Projects/Website-Builder/Website-Builder.Services/Website-Builder.Services.csproj",
+        "packagesPath": "/Users/egorsemenov/.nuget/packages/",
+        "outputPath": "/Users/egorsemenov/Projects/Website-Builder/Website-Builder.Services/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/egorsemenov/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "/Users/egorsemenov/Projects/Website-Builder/Website-Builder.Data/Website-Builder.Data.csproj": {
+                "projectPath": "/Users/egorsemenov/Projects/Website-Builder/Website-Builder.Data/Website-Builder.Data.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.313/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

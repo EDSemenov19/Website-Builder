@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <RootNamespace>Website_Builder.Services</RootNamespace>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Websites\" />
+    <None Remove="Websites\Services\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Websites\" />
+    <Folder Include="Websites\Services\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Website-Builder.Data\Website-Builder.Data.csproj" />
+  </ItemGroup>
+</Project>

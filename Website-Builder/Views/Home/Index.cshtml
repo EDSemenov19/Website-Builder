@@ -1,0 +1,17 @@
+﻿@model ICollection<Website?>
+
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    @foreach(var website in Model)
+{
+            <p onclick="onWebsiteClick(website.Id)">Website: @website.Name</p>
+}
+</div>
+
+<script>
+    function onWebsiteClick(Id) {
+        window.location.href = `/WebsiteView/${Id}`;
+}</script>
