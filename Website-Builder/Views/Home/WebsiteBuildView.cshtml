@@ -1,5 +1,13 @@
-﻿@{
-    ViewData["Title"] = "Edit Website";
+﻿@model Website
+
+@{
+    ViewData["Title"] = "Website Build";
 }
 
-<p>Hello Egor!</p>
+<h1>@Model.Name</h1>
+
+<form method="post" action="/Website/UpdateWebsite">
+    <input type="hidden" name="id" value="@Model.Id" />
+    <textarea name="code">@Model.Code</textarea>
+    <input type="submit" value="Save">
+</form>

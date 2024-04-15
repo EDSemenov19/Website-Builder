@@ -1339,33 +1339,34 @@
     ]
   },
   "packageFolders": {
-    "/Users/egorsemenov/.nuget/packages/": {}
+    "C:\\Users\\Mario's PC\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/egorsemenov/Projects/Website-Builder/Website-Builder/Website-Builder.csproj",
+      "projectUniqueName": "D:\\Website-Builder\\Website-Builder\\Website-Builder.csproj",
       "projectName": "Website-Builder",
-      "projectPath": "/Users/egorsemenov/Projects/Website-Builder/Website-Builder/Website-Builder.csproj",
-      "packagesPath": "/Users/egorsemenov/.nuget/packages/",
-      "outputPath": "/Users/egorsemenov/Projects/Website-Builder/Website-Builder/obj/",
+      "projectPath": "D:\\Website-Builder\\Website-Builder\\Website-Builder.csproj",
+      "packagesPath": "C:\\Users\\Mario's PC\\.nuget\\packages\\",
+      "outputPath": "D:\\Website-Builder\\Website-Builder\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/Users/egorsemenov/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\Mario's PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net7.0"
       ],
       "sources": {
-        "/usr/local/share/dotnet/sdk/7.0.313/Sdks/Microsoft.NET.Sdk.Web/library-packs": {},
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "/Users/egorsemenov/Projects/Website-Builder/Website-Builder.Services/Website-Builder.Services.csproj": {
-              "projectPath": "/Users/egorsemenov/Projects/Website-Builder/Website-Builder.Services/Website-Builder.Services.csproj"
+            "D:\\Website-Builder\\Website-Builder.Services\\Website-Builder.Services.csproj": {
+              "projectPath": "D:\\Website-Builder\\Website-Builder.Services\\Website-Builder.Services.csproj"
             }
           }
         }
@@ -1410,7 +1411,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.313/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
       }
     }
   }

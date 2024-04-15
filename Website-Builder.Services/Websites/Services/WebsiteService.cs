@@ -36,7 +36,16 @@ namespace Website_Builder.Services.Websites.Services
             return res;
         }
 
-        
+        public Website UpdateWebsite(string id, string code)
+        {
+            var res = _dbContext.Websites.FirstOrDefault(w => w.Id == id);
+
+            res.Code = code;
+            _dbContext.Websites.Update(res);
+            _dbContext.SaveChanges();
+
+            return res;
+        }
     }
 }
 

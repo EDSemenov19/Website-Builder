@@ -8,4 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Website_Builder.Data
-build_property.ProjectDir = /Users/egorsemenov/Projects/Website-Builder/Website-Builder.Data/
+build_property.ProjectDir = D:\Website-Builder\Website-Builder.Data\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 

@@ -10,3 +10,16 @@
 /Users/egorsemenov/Projects/Website-Builder/Website-Builder.Data/obj/Debug/net7.0/refint/Website-Builder.Data.dll
 /Users/egorsemenov/Projects/Website-Builder/Website-Builder.Data/obj/Debug/net7.0/Website-Builder.Data.pdb
 /Users/egorsemenov/Projects/Website-Builder/Website-Builder.Data/obj/Debug/net7.0/ref/Website-Builder.Data.dll
+D:\Website-Builder\Website-Builder.Data\bin\Debug\net7.0\Website-Builder.Data.deps.json
+D:\Website-Builder\Website-Builder.Data\bin\Debug\net7.0\Website-Builder.Data.dll
+D:\Website-Builder\Website-Builder.Data\bin\Debug\net7.0\Website-Builder.Data.pdb
+D:\Website-Builder\Website-Builder.Data\obj\Debug\net7.0\Website-Builder.Data.csproj.AssemblyReference.cache
+D:\Website-Builder\Website-Builder.Data\obj\Debug\net7.0\Website-Builder.Data.GeneratedMSBuildEditorConfig.editorconfig
+D:\Website-Builder\Website-Builder.Data\obj\Debug\net7.0\Website-Builder.Data.AssemblyInfoInputs.cache
+D:\Website-Builder\Website-Builder.Data\obj\Debug\net7.0\Website-Builder.Data.AssemblyInfo.cs
+D:\Website-Builder\Website-Builder.Data\obj\Debug\net7.0\Website-Builder.Data.csproj.CoreCompileInputs.cache
+D:\Website-Builder\Website-Builder.Data\obj\Debug\net7.0\Website-Builder.Data.sourcelink.json
+D:\Website-Builder\Website-Builder.Data\obj\Debug\net7.0\Website-Builder.Data.dll
+D:\Website-Builder\Website-Builder.Data\obj\Debug\net7.0\refint\Website-Builder.Data.dll
+D:\Website-Builder\Website-Builder.Data\obj\Debug\net7.0\Website-Builder.Data.pdb
+D:\Website-Builder\Website-Builder.Data\obj\Debug\net7.0\ref\Website-Builder.Data.dll

@@ -5,6 +5,7 @@ using Website_Builder.Services.Websites.Services;
 
 namespace Website_Builder.Controllers;
 
+//[Route("Home/[action]")]
 public class HomeController : Controller
 {
     private readonly ILogger<HomeController> _logger;
@@ -18,6 +19,8 @@ public class HomeController : Controller
 
     public IActionResult Index()
     {
+        // _websiteService.CreateWebsite(new Website { Name = "Test123", Code = "" });
+
         var websites = _websiteService.FetchAllWebsites();
         return View(websites);
     }
@@ -27,7 +30,21 @@ public class HomeController : Controller
         return View();
     }
 
-    public IActionResult WebsiteBuildView()
+    [Route("/Home/WebsiteBuildView/{Id}")]
+    public IActionResult WebsiteBuildView([FromRoute] string Id)
+    {
+        var website = _websiteService.FetchWebsite(Id);
+        return View(website);
+    }
+
+    [Route("/Home/WebsiteView/{Id}")]
+    public IActionResult WebsiteView([FromRoute] string Id)
+    {
+        var website = _websiteService.FetchWebsite(Id);
+        return View(website);
+    }
+
+    public IActionResult WebsiteAddView()
     {
         return View();
     }

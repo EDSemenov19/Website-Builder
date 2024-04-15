@@ -8,13 +8,18 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="Configurations\**" />
+    <EmbeddedResource Remove="Configurations\**" />
+    <None Remove="Configurations\**" />
+  </ItemGroup>
+
+  <ItemGroup>
     <None Remove="Data\" />
     <None Remove="Configurations\" />
     <None Remove="Models\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Data\" />
-    <Folder Include="Configurations\" />
     <Folder Include="Models\" />
   </ItemGroup>
   <ItemGroup>

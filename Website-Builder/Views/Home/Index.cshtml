@@ -6,12 +6,12 @@
 
 <div class="text-center">
     @foreach(var website in Model)
-{
-            <p onclick="onWebsiteClick(website.Id)">Website: @website.Name</p>
-}
+    {
+        Console.WriteLine(website.Id);
+        <p>
+            <a asp-controller="Home" asp-action="WebsiteView" asp-route-Id="@website.Id">@website.Name</a>
+            <a asp-controller="Home" asp-action="WebsiteBuildView" asp-route-Id="@website.Id">Edit</a>
+        </p>
+    }
+    <a asp-controller="Home" asp-action="WebsiteAddView"><button>Add</button></a>
 </div>
-
-<script>
-    function onWebsiteClick(Id) {
-        window.location.href = `/WebsiteView/${Id}`;
-}</script>
